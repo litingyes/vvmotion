@@ -3,10 +3,12 @@
     "target": "es2016",
     "rootDir": ".",
     "module": "ESNext",
+    "moduleResolution": "bundler",
     "paths": {
       "@/*": ["./src/*"]
     },
     "strict": true,
+    "declaration": false,
     "forceConsistentCasingInFileNames": true
   },
   "include": [
