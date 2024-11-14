@@ -1,6 +1,5 @@
 import { resolve } from 'node:path'
 import vue from '@vitejs/plugin-vue'
-import { globSync } from 'glob'
 import { defineConfig } from 'vite'
 import dts from 'vite-plugin-dts'
 import { dependencies, peerDependencies } from './package.json'
