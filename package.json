@@ -21,7 +21,10 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "build": "vite build"
+    "build": "vite build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "peerDependencies": {
     "vue": "^3.5.12"
@@ -40,7 +43,8 @@
     "lint-staged": "^15.2.10",
     "typescript": "^5.6.3",
     "vite": "^5.4.11",
-    "vite-plugin-dts": "^4.3.0"
+    "vite-plugin-dts": "^4.3.0",
+    "vitepress": "^1.5.0"
   },
   "lint-staged": {
     "*": "eslint --fix"
